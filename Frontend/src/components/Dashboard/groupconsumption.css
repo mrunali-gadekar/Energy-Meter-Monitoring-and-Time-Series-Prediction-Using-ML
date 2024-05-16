@@ -1,0 +1,59 @@
+/* groupconsumption.css */
+
+.group-consumption-container {
+  width: 350px;
+  height: relative;
+  text-align: center;
+  position: relative;
+  bottom: 875px;
+  left: 580px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px; /* Adjust margin as needed */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  transition: border-color 0.3s;
+}
+
+.group-consumption-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.chart-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.group-details {
+  margin-top: 10px;
+}
+
+.group-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.group-details li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   padding: 10px; 
+  /* border-top: 1px solid #ddd; */
+}
+
+.group-name {
+  font-weight: bold;
+}
+
+.total-apparent-energy {
+  font-weight: bold;
+}
+
+.color-indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+}

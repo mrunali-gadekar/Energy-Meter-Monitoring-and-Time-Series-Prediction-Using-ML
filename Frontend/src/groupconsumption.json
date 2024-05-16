@@ -1,0 +1,17 @@
+[
+  {
+      "_id": "group1",
+      "groupName": null,
+      "totalApparentEnergy": 0.3798
+  },
+  {
+      "_id": "group2",
+      "groupName": null,
+      "totalApparentEnergy": 0.23019
+  },
+  {
+      "_id": "home",
+      "groupName": null,
+      "totalApparentEnergy": 0
+  }
+]

@@ -1,0 +1,104 @@
+.device-form {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f9fc;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 500px; /* Set a maximum width for your form */
+  width: 100%; /* Make the form take the available width */
+  margin: 0 auto;
+  margin-top: 60px;
+
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+/* Input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+  /* Add overflow property to control text overflow */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflowing text */
+}
+
+.label-field {
+  margin: 10px 0;
+  display: block;
+}
+
+/* Add button */
+.add-button {
+  background-color: #5c5a5a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between buttons as needed */
+}
+/* Define the flex-container class for arranging buttons horizontally */
+/* Style the attribute-container to control the layout of attribute-related elements */
+.attribute-container {
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+/* Button container for centering */
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Submit button */
+.submit-button {
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Device hexAddressInfo list */
+.device-hexAddressInfo {
+  list-style: none;
+  padding: 0;
+}
+
+.device-hexAddressInfo li {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+/* Remove list-style from ul */
+.no-list-style {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* Make labels bold */
+.bold-label {
+  font-weight: bold;
+}
+
+/* DeviceForm.css or Form.css */
+.device-form .add-button {
+  /* Apply the common button style to all add buttons */
+  composes: button;
+}
+
+/* Apply the common button hover effect to all add buttons */
+.device-form .add-button:hover {
+  background-color: #0056b3;
+}

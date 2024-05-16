@@ -1,0 +1,24 @@
+/* maxconsumption.css */
+
+.max-consumption-container {
+  position: relative;
+  padding: 5px;
+  bottom: 450px;
+  right: 0px;
+  width: 850px;
+  margin-left: 200px;
+  border: 1px solid #ddd;
+  background-color: #fff; /* Background color for the container */
+  border: 2px solid #ccc; /* Border color for the container */
+  border-radius: 1px; /* Border radius for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the container */
+  padding: 35px;
+  margin-top: 500px
+}
+.max-consumption-container h2 {
+  margin-bottom: 15px;
+}
+
+.max-consumption-container p {
+  color: red; /* Customize error message color */
+}

@@ -1,0 +1,159 @@
+/* src/components/Dashboard/Dashboard.css */
+
+body {
+  font-family: 'Brooklyn', sans-serif;
+}
+
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+  font-family: 'Brooklyn', sans-serif;
+  position: relative;
+}
+
+.navbar {
+  flex-shrink: 0; /* Prevent the navbar from shrinking when content grows */
+  min-height: 100vh; /*Set a minimum height for the navbar */
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #b62e2e;
+}
+
+.dashboard-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 5px;
+  transition: background-color 0.3s, text-decoration 0.3s, font-weight 0.3s;
+  font-weight: 200px;
+  font-family: 'Brooklyn', sans-serif;
+}
+
+.dashboard-link:hover {
+  background: linear-gradient(to bottom right, #b62e2e, #470000);
+  text-decoration: underline;
+  font-family: 'Brooklyn', sans-serif;
+  color: white;
+}
+
+.logout-container {
+  margin-top: auto;
+}
+
+.logout-container button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.logout-container button:hover {
+  background: linear-gradient(to right, #b62e2e, #470000);
+}
+
+.dashboard-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row2{
+  display: column;
+
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  min-height: 100vh; /* Set a minimum height for the content area */
+}
+
+.dashboard-title {
+  position: relative;
+  bottom: 30px;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-left: 200px;
+}
+
+.faint-line {
+  position: relative;
+  bottom: 50px;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+/* bell icon */
+.notification-icon {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  cursor: pointer;
+}
+
+.bell-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* user profile */
+.user-profile {
+  position: absolute;
+  top: 0;
+  right: 60px;
+  cursor: pointer;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.suntech-text
+{
+  position :relative;
+  left:70px;
+  top: 10px;
+}
+
+.providing-assistance
+{
+  position :relative;
+  left:80px;
+  top: 10px;
+}
+
+.suntech-image{
+  position: relative;
+  bottom: 46px;
+  right: 19px;
+}
+
+.refresh-button {
+  position: absolute;
+  top: 2px;
+  left: 1300px; /* Adjust the left value as needed */
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.refresh-button:hover {
+  background: linear-gradient(to right, #b62e2e, #470000);
+}
+

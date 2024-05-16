@@ -1,0 +1,30 @@
+/* pf.css */
+
+/* Add these styles to arrange PF leading and lagging values side by side */
+.pf-values-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add box styles similar to the max consumption section */
+.pf-container {
+  position: relative;
+  bottom: 400px;
+  left: 0px; /* Adjust the left position as needed */
+  width: 850px; /* Adjust the width as needed */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff; /* Background color for the container */
+  border: 2px solid #ccc; /* Border color for the container */
+  border-radius: 5px; /* Border radius for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the container */
+  padding: 35px;
+  margin-left: 200px;
+  
+}
+
+/* Add any additional styling for PF leading and lagging values */
+.pf-value {
+  font-size: 18px;
+  margin-bottom: 10px;
+}

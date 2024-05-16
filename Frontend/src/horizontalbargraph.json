@@ -1,0 +1,14 @@
+{
+  "latestApparentEnergyPerSlave": 
+  [
+      {
+          "_id": 1,
+          "latestApparentEnergy": 0.23018594086170197
+      },
+      {
+          "_id": 2,
+          "latestApparentEnergy": 0.14967656135559082
+      }
+  ],
+  "totalApparentEnergy": 0.3798625022172928
+}

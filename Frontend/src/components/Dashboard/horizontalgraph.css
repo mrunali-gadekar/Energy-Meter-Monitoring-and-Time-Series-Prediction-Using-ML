@@ -1,0 +1,35 @@
+/* horizontalgraph.css */
+body {
+  font-family: 'Brooklyn', sans-serif;
+}
+
+.graph-container {
+  position: relative;
+  top: 17%;
+  right: 0px;
+  width: 850px;
+  margin-left: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff; /* Background color for the container */
+  border: 2px solid #ccc; /* Border color for the container */
+  border-radius: 5px; /* Border radius for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the container */
+  padding: 35px;
+}
+
+
+.graph-container:hover {
+  border-color: #bbb;
+}
+
+.graph-container h2 {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.graph-container canvas {
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,175 @@
+/* src/components/login/Login.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Brooklyn+Eight&display=swap');
+
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.red-section {
+  width: 600px; /* Fixed width instead of percentage */
+  background: linear-gradient(to right, #b62e2e, #470000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.welcome-box {
+  text-align: center;
+  color: #f5f6ff;
+  margin-bottom: 10px;
+}
+
+.welcome-text {
+  font-size: 2em;
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Brooklyn Eight', sans-serif;
+  font-weight: bold;
+}
+
+.login-text {
+  font-size: 1.5em;
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Brooklyn Eight', sans-serif;
+}
+
+.suntech,
+.providingass,
+.suntech-content,
+.Ellipse3,
+.Ellipse4,
+.center-image {
+  position: absolute;
+}
+
+.suntech {
+  width: 85px;
+  left: 500px;
+  bottom: 20px;
+}
+
+.providingass {
+  width: 110px;
+  left: 620px;
+  bottom: 60px;
+}
+
+.suntech-content {
+  width: 160px;
+  left: 625px;
+  bottom: 90px;
+}
+
+.Ellipse3 {
+  bottom: 210px;
+  left: 0;
+  transform: rotate(90deg);
+}
+
+.Ellipse4 {
+  width: auto;
+  top: 190px;
+  right: 263px;
+  transform: rotate(90deg);
+}
+
+.center-image {
+  bottom: 190px;
+}
+
+.white-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 80%;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom right, #b62e2e, #470000);
+  border-radius: 5px;
+  color: #f5f6ff;
+  box-sizing: border-box;
+}
+
+.login-form h2 {
+  position: relative;
+  left: 77px;
+  font-family: 'Brooklyn Eight', sans-serif;
+}
+
+.login-form label {
+  font-family: 'Brooklyn Eight', sans-serif;
+}
+
+.login-form input {
+  width: calc(100% - 20px); /* Adjusted width to account for padding */
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  width: 50%;
+  margin: 10px;
+  position: relative;
+  left: 80px;
+  padding: 10px;
+  background-color: #f5f6ff;
+  color: #b62e2e;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: 'Brooklyn Eight', sans-serif;
+}
+
+
+.Ellipse3
+{
+  position: relative;
+  bottom: 210px;
+  right: 500px;
+  transform: rotate(90deg);
+}
+
+.Ellipse4
+{
+  position: relative;
+  width: auto;
+  top: 140px;
+  right: 310px;
+  transform: rotate(90deg);
+}  
+
+.center-image{
+  position: relative;
+  bottom: 190px;
+}
+
+.suntech
+{
+  position: relative;
+  left: 500px;
+  bottom: 20px;
+}
+
+.providingass
+{
+  position: relative;
+  left: 620px;
+  bottom: 60px;
+}
+
+.suntech-content
+{
+  position: relative;
+  left: 625px;
+  bottom: 90px;
+}

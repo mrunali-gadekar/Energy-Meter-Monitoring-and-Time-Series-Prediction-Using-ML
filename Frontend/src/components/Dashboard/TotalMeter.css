@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Brooklyn', sans-serif;
+}
+
+.total-meter-container {
+  width: 350px;
+  text-align: center;
+  position: relative;
+  bottom: 360px;
+  left: 200px;
+  /* padding: 15px; */
+  background-color: #fff; /* Background color for the container */
+  border: 2px solid #ccc; /* Border color for the container */
+  border-radius: 5px; /* Border radius for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the container */
+}
+
+.meter-list {
+  margin-top: 10px;
+}
+
+.meter-list ul {
+  list-style-type: circle;
+  padding: 0;
+}
+
+.meter-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.circle {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 3px;
+  border: 2px solid;
+}
+
+.circle-online {
+  background-color: transparent;
+  border-color: #28a745; /* Green color for online meters */
+}
+
+.circle-offline {
+  background-color: transparent;
+  border-color: #dc3545; /* Red color for offline meters */
+}
+
+.percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.percentage-text {
+  font-size: 18px;
+  color: green;
+}
+
+.meter-count-online {
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+.total-meters {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.meter-details {
+  margin-top: 10px;
+}
+
+.chart-container {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.status-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.meter-count {
+  font-weight: bold;
+  font-size: 20px;
+}
